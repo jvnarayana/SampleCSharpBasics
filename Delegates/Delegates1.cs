@@ -19,6 +19,7 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
+            //Step 3: Invoke the delegate in the Main method
             WorkFromDelegate del1 = new WorkFromDelegate(WorkFromHandlerMethod1);
             WorkFromDelegate del2 = new WorkFromDelegate(WorkFromHandlerMethod2);
             del1.Invoke(1, WorkType.Meetings);
